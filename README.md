@@ -6,7 +6,7 @@ simulator. The simulator will receive the path to the input file as an argument 
 matrix. The program will then simulate the next 100 time-step. The simulation is guided by a handful of simplistic 
 rules that will result in a seemingly complex simulation of cellular organisms.
 
-Below is an example starting cellular matrix consisting of 10 rows and 20 columns:
+Below is an example starting cellular matrix consisting of 10 rows and 20 columns:\n
 -----+--+-+----+----
 ---++-----+-----+---
 -------++---+--++---
