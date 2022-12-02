@@ -122,7 +122,6 @@ def predictMatrix(inputMatrix):
     fo.write("\n".join(item for item in inputMatrix))   # writes each line of the matrix to the output file.
 
 if __name__ == '__main__':
-    print('Project :: R11613360')
     parser = argparse.ArgumentParser()
     parser.add_argument('-i', dest ='input', type = str, required = True)   # Argparse arguments to take in the input file, output file, and thread count.
     parser.add_argument('-o', dest = 'output', type = str, required = True)
