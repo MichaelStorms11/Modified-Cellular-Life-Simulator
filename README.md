@@ -8,16 +8,16 @@ rules that will result in a seemingly complex simulation of cellular organisms.
 
 Below is an example starting cellular matrix consisting of 10 rows and 20 columns:
 
-[-----+--+-+----+----, 
----++-----+-----+---, 
--------++---+--++---, 
-+--------++++---++++, 
-+----++--+--++--++++, 
-+------+----+--+---+, 
-+-------------++---+, 
-+----------+--+----+, 
--+--------------+---, 
-----+-++-------+---+]
+['-----+--+-+----+----\n', 
+'---++-----+-----+---\n', 
+'-------++---+--++---\n', 
+'+--------++++---++++\n', 
+'+----++--+--++--++++\n', 
+'+------+----+--+---+\n', 
+'+-------------++---+\n', 
+'+----------+--+----+\n', 
+'-+--------------+---\n', 
+'----+-++-------+---+]
 
 The program will accept the starting matrix (Time Step 0) as a file from the command line and then simulate
 steps 1 through 100. The final matrix (Time Step 100) will then be written to an output file whose name and
