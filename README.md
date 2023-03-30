@@ -20,7 +20,8 @@ Below is an example starting cellular matrix consisting of 10 rows and 20 column
 '----+-++-------+---+]
 
 The program will accept the starting matrix (Time Step 0) as a file from the command line and then simulate
-steps 1 through 100. The final matrix (Time Step 100) will then be written to an output file whose name and
+steps 1 through 100. The program will also accept a number of threads to be used from a seperate command line argument.
+The final matrix (Time Step 100) will then be written to an output file whose name and
 path is dictated by a separate command line argument. These files will contain a copy of the matrix with each
 row of the matrix printed on separate lines and no characters in between the columns.
 
