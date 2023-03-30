@@ -26,10 +26,10 @@ path is dictated by a separate command line argument. These files will contain a
 row of the matrix printed on separate lines and no characters in between the columns.
 
 Example executions:
-• python3 MCL_Simulator.py -i inputFile.txt -o timeStep100.txt -t 36 /n
-  o Sets input file to “inputFile.txt” /n
-  o Sets output file to “timeStep100.txt” /n
-  o Sets thread count to 36 /n
+• python3 MCL_Simulator.py -i inputFile.txt -o timeStep100.txt -t 36  
+  o Sets input file to “inputFile.txt”  
+  o Sets output file to “timeStep100.txt”  
+  o Sets thread count to 36 
   
 
 Valid input and output files must abide by the following rules:
